@@ -7,6 +7,6 @@ void main()
         n=a%10;
         printf("%d",n);
     }
-    
+   
 }
 
