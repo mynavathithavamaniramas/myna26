@@ -1,9 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-int a=150;
-int b=160;
-swap(a,b)
-printf("the swapping number is%d,%d",a,b);
+  int a=10,b=20;
+  {
+    a=a^b;
+    b=a^b;
+    a=a^b;
+  }
+  printf("%d%d",a,b);
 }
