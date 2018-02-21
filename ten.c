@@ -1,19 +1,23 @@
 #include <stdio.h>
-  int main() {
-    float a[10];
-    float i;
-    int greatest;
-    printf("Enter ten values:");
-    for (i = 0; i < 10; i++) {
-    	scanf("%d", &a[i]);
-    }
-    greatest = a[0];
-    for (i = 0; i < 10; i++) {
-	if (a[i] > greatest) {
-	greatest = a[i];
-    }
-    }
-    printf("
-    Greatest of ten numbers is %d", greatest);
-    return 0;
-  }
+int main()
+{
+	int a[5],i,b;
+	printf("enter the array value");
+	for(i=0;i<=5;i++)
+	{
+		scanf("%d",a[i]);
+	}
+	b=a[0];
+	for(i=0;i<=5;i++)
+	{
+		if(b>a[i])
+		{
+			b=b;
+		}
+		else
+		{
+			b=a[i];
+		}
+	}
+	printf("max%d",b);
+}
