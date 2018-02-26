@@ -2,10 +2,15 @@
 #include<conio.h>
 void main()
 {
-int a=0,b,n.i;
-for(i=0;i<=n;i++)
-{
-n=n%10;
-printf("the fib number is%d",n);
-}
+int i,n,sum,a1=0,a2=1;
+  printf("enter the n value");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+    printf("%d",a1);
+    sum=a1+a2;
+    a1=a2;
+    a2=sum;
+  }
+  
 }
