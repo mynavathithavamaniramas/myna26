@@ -11,7 +11,7 @@ for(i=0;i<4;i++)
 {
 if(a[i]%2==1)
 {
-printf("%d",i);
+printf("%d",a[i]);
 }
 }
 }
